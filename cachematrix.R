@@ -1,8 +1,8 @@
 ## Functions makeCacheMatrix to store matrix and make variable for caching, cacheSolve to solve the inverse and cache
 
 
-##creates list with  m variable within the function to store inverse, get() to return original matrix, set() to 
-##change original matrix and remove m variable, setinverse to save the inverse, getinverse to display m
+##creates list of functions with a variable m within the function to store inverse, get() to return original matrix, set()
+##to change original matrix and remove m variable, setinverse to save the inverse, getinverse to display m
 
 makeCacheMatrix <- function(x = matrix()) {
         m <- NULL
